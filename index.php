@@ -33,8 +33,7 @@
         </div>
     </nav>
 <?php
-    if(!isset($_GET['id'])){
-       
+    if(!isset($_GET['id'])){ 
 ?>
 <div class="home"><?= $xml -> page[0] -> content ?></div>
 <?php   

@@ -30,9 +30,6 @@ nav{
     border-bottom-right-radius: 20px;
     text-align: left !important;
 }
-.home{
-    
-}
 .img{
     width: 19.5%;
 }
@@ -44,5 +41,9 @@ nav{
 .caption-text{
     margin-top: 10px;
     text-align: center;
+}
+.form{
+    margin: 0 50% 0 2%;
+    height: 300px !important;
 }
 /*Luc*/

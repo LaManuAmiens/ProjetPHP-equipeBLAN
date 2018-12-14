@@ -1,0 +1,47 @@
+/*Luc*/
+/* GENERAL */
+body{
+    background: linear-gradient(to right, #3e5151, #decba4);
+    font-family: 'Amatic SC', cursive !important;
+    width: 100%;
+}
+p{
+    padding: 1%;
+}
+h1{
+    margin-top: 5%;
+    padding: 5% 0 5% 0;
+    text-align: center !important;
+    background: linear-gradient(to left, #3e5151, #decba4);
+    color: white;
+}
+h2{
+    padding: 3%;
+    text-align: center;
+    background: linear-gradient(to left, #3e5151, #decba4);
+    color: white;
+}
+/* HEADER */
+nav{
+    background: linear-gradient(to left, #3e5151, #decba4);
+    border-bottom: 10px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left !important;
+}
+.home{
+    
+}
+.img{
+    width: 250px;
+}
+.gallery_box_single{
+    padding: 2%;
+    display: flex;
+    flex-wrap: nowrap; 
+}
+.caption-text{
+    margin-top: 10px;
+    text-align: center;
+}
+/*Luc*/

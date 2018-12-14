@@ -42,4 +42,8 @@ nav{
     margin-top: 10px;
     text-align: center;
 }
+.form{
+    margin: 0 50% 0 2%;
+    height: 300px !important;
+}
 /*Luc*/

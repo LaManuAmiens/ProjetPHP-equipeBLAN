@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?id=2.html"><?= $xml -> page[0] -> menu ?></a>
+                    <a class="nav-link" href="index.php"><?= $xml -> page[0] -> menu ?></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?id=2.html"><?= $xml -> page[1] -> menu ?></a>

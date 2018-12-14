@@ -4,10 +4,14 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <name>PhpProject1</name>
 =======
             <name>ProjetPHP-equipeBLAN</name>
 >>>>>>> 28f151172c05e000f0f0cfcad1bb6dde46d5465a
+=======
+            <name>projet</name>
+>>>>>>> master
         </data>
     </configuration>
 </project>

@@ -12,13 +12,13 @@ h1{
     margin-top: 5%;
     padding: 5% 0 5% 0;
     text-align: center !important;
-    background: linear-gradient(to left, #3e5151, #decba4);
+    background: #3e5151;
     color: white;
 }
 h2{
     padding: 3%;
     text-align: center;
-    background: linear-gradient(to left, #3e5151, #decba4);
+    background: #3e5151;
     color: white;
 }
 /* HEADER */
@@ -33,7 +33,7 @@ nav{
     
 }
 .img{
-    width: 250px;
+    width: 19.5%;
 }
 .gallery_box_single{
     padding: 2%;

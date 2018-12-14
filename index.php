@@ -35,10 +35,11 @@
 <?php
     if(!isset($_GET['id'])){ 
 ?>
-<div class="home"><?= $xml -> page[0] -> content ?></div>
+<div><?= $xml -> page[3] -> content ?></div>
 <?php   
     }else{
 ?>
+<div><?= $xml -> page[3] -> content ?></div>
 <?php        
     }
 ?>

@@ -31,7 +31,7 @@ nav{
     text-align: left !important;
 }
 .img{
-    width: 19.5%;
+    width: 250px;
 }
 .gallery_box_single{
     padding: 2%;
@@ -46,3 +46,8 @@ nav{
     height: 300px !important;
 }
 /*Luc*/
+@media all and (max-width: 600px){
+    .gallery_box_single{
+        display: block;
+    }
+}

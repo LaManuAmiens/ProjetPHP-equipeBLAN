@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title><?= $xml -> page[0] -> title ?></title>
+    <title><?= $xml->page[0]-> title ?></title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -18,40 +18,40 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php"><?= $xml -> page[0] -> menu ?></a>
+                    <a class="nav-link" href="1.html"><?= $xml->page[0]->menu ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?id=2.html"><?= $xml -> page[1] -> menu ?></a>
+                    <a class="nav-link" href="2.html"><?= $xml->page[1]->menu ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?id=3.html"><?= $xml -> page[2] -> menu ?></a>
+                    <a class="nav-link" href="3.html"><?= $xml->page[2]->menu ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?id=4.html"><?= $xml -> page[3] -> menu ?></a>
+                    <a class="nav-link" href="4.html"><?= $xml->page[3]->menu ?></a>
                 </li>
             </ul>
         </div>
     </nav>
 <?php
-    if(!isset($_GET['id'])){ 
+    if(!isset($_GET['id'])){
         ?>
-        <div><?= $xml -> page[0] -> content ?></div>
-        <?php   
+        <div><?= $xml->page[0]->content ?></div>
+        <?php
     }else if($_GET['id'] == 2){
         ?>
-        <div><?= $xml -> page[1] -> content ?></div>
-        <?php        
+        <div><?= $xml->page[1]->content ?></div>
+        <?php
     }else if($_GET['id'] == 3){
         ?>
-        <div><?= $xml -> page[2] -> content ?></div>
+        <div><?= $xml->page[2]->content ?></div>
         <?php
     }else if($_GET['id'] == 4){
         ?>
-        <div><?= $xml -> page[3] -> content ?></div>
+        <div><?= $xml->page[3]->content ?></div>
         <?php
     }else{
         ?>
-        <div><?= $xml -> page[0] -> content ?></div>
+        <div><?= $xml->page[0]->content ?></div>
         <?php
     }
 ?>

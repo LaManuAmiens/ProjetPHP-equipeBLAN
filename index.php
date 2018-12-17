@@ -1,4 +1,5 @@
 <?php
+//On crée une variable $xml qu'on initialise à une fonction simplexml_load_file qui permet convertit le fichier source.xml en objet.
     $xml = simplexml_load_file('xml/source.xml') or die('Erreur : impossible de créer l\'objet');
 ?>
 <!DOCTYPE html>
@@ -9,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title><?= $xml -> page[0] -> title ?></title>
+<!--Une fois notre variable initialisé à notre fichier xml convertie, on cherche à afficher les élements de notre précédent fichier par lien de parenté (->)
+ici, on affiche à partir du fichier xml, le parent 'page index 0', l'enfant 'title' qui est égale à "Maçonnerie Occordo"-->
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -18,16 +21,16 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php"><?= $xml -> page[0] -> menu ?></a>
+                    <a class="nav-link" href="index.php"><?= $xml->page[0]->menu ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?id=2.html"><?= $xml -> page[1] -> menu ?></a>
+                    <a class="nav-link" href="index.php?id=2.html"><?= $xml->page[1]->menu ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?id=3.html"><?= $xml -> page[2] -> menu ?></a>
+                    <a class="nav-link" href="index.php?id=3.html"><?= $xml->page[2]->menu ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?id=4.html"><?= $xml -> page[3] -> menu ?></a>
+                    <a class="nav-link" href="index.php?id=4.html"><?= $xml->page[3]->menu ?></a>
                 </li>
             </ul>
         </div>

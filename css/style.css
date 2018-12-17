@@ -36,7 +36,6 @@ nav{
 .gallery_box_single{
     padding: 2%;
     display: flex;
-    flex-wrap: nowrap; 
 }
 .caption-text{
     margin-top: 10px;

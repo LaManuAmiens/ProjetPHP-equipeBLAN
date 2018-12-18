@@ -1,7 +1,12 @@
 <?php
 //On crée une variable $xml qu'on initialise à une fonction simplexml_load_file qui permet convertit le fichier source.xml en objet.
     $xml = simplexml_load_file('xml/source.xml') or die('Erreur : impossible de créer l\'objet');
-    $index = intval($_GET['id'])-1;
+    // On teste pour savoir si dans le tableau, on a bien un CLÉ ASSOCIATIVE qui s'appelle 'id'
+    if(isset($_GET['id'])){
+        $index = intval($_GET['id']-1);
+    }else{
+        $index = 0;
+    }
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
